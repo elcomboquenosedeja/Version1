@@ -74,7 +74,7 @@
             <string>if(place_meeting(x,y,objBillyOscuridad)){
     with(other)
     sprite_index=sprFocoOn;
-    alarm[0]=30;
+    alarm[0]=20;
     }
 
 </string>

@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndMuerteBilly</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Oscuridad">
       <sprites name="Billy">
@@ -93,10 +95,11 @@
       <object>objects\objBillyPadres</object>
     </objects>
     <object>objects\objInicio</object>
+    <object>objects\objGameOver</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Oscuridad</room>
     <room>rooms\Inicio</room>
+    <room>rooms\Oscuridad</room>
     <room>rooms\Padres</room>
     <room>rooms\FoodTopia</room>
     <room>rooms\Game_over</room>
